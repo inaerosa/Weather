@@ -1,0 +1,42 @@
+body{
+  background-color: #196E57;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.app{
+  background-color:#F9FFFB ;
+  width: 60%;
+  height: 50vh;
+  margin-left: 20vw;
+  margin-top: 18vh;
+  border-radius: 30px;
+}
+
+.container{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.container h1{
+  padding: 20px;
+}
+
+.container input{
+  padding: 5px;
+  text-align: center;
+}
+
+.container button{
+    background-color: #196E57;
+    color: white;
+    border: none;
+    padding: 7px;
+}
+
+.input{
+  display: flex;
+  margin-left: 20vw;
+}
