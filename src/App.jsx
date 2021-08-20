@@ -16,7 +16,7 @@ function App() {
 
   const handleClick = async () => {
     if (inputLocal) {
-      const { data } = await axios.get(`https://api.hgbrasil.com/weather?format=json-cors&key=adf455bb&city_name=${inputLocal}`);
+      const { data } = await axios.get(`https://api.hgbrasil.com/weather?format=json-cors&key=4be84cba&city_name=${inputLocal}`);
 
       setLocal(data)
     }
@@ -36,6 +36,7 @@ function App() {
         </div>
         
         <div className="board">
+          {console.log(local)}
           {local ? <CityDetail local={local} /> : ""}
         </div>
       </div>
