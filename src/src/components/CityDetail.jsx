@@ -14,7 +14,7 @@ const CityDetail = ({local}) => {
             
             <h2>{local && cidade.city} </h2>
           
-            <p>Temperatural atual: {local && cidade.condition_code}ºC</p>
+            <p>Temperatural atual: {local && cidade.temp}ºC</p>
             <p>Mínima: {local && min}ºC</p>
             <p>Maxima: {local && max}ºC </p>
             <p>Tempo : {cidade.description}</p>
